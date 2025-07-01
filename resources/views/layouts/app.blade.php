@@ -12,7 +12,7 @@
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img src="{{ asset('images/Logo_BEM.png') }}" alt="Logo BEM" class="h-10">
+                <img src="{{ asset('images/download.png') }}" alt="Logo BEM" class="h-10">
                 <span class="font-bold text-xl text-blue-700">BEM</span>
             </div>
             <nav class="space-x-6">
