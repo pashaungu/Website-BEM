@@ -13,6 +13,7 @@ class HomeController extends Controller
         // $programs = Program::latest()->take(3)->get(); // hanya ambil 3 program unggulan
         // $kalenders = Kalender::latest()->take(3)->get(); // hanya ambil 3 kegiatan terbaru
 
-        return view('pages.home', compact('programs', 'kalenders'));
+        // return view('pages.home', compact('programs', 'kalenders'));
+        return view('pages.home');
     }
 }
