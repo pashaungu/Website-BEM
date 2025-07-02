@@ -9,7 +9,5 @@ class Program extends Model
 {
     use HasFactory;
 
-    protected $table = 'program';
-
    protected $fillable = ['judul', 'deskripsi', 'tanggal'];
 }
